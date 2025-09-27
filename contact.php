@@ -53,41 +53,22 @@
                             <h5>Envíanos un mensaje</h5>
                             <img src="assets/images/heading_white.png" alt="">
                         </div>
-                        <form>
+                        <form id="formulario">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="form-group form-block">
-                                        <input type="text" class="form-control require" placeholder="Enter Your Name"
+                                        <input type="text" class="form-control require" placeholder="Nombre Completo"
                                             name="full_name" id="full_name">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group form-block">
-                                        <input type="text" class="form-control require" placeholder="Enter Your Number"
-                                            id="number">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group form-block">
-                                        <input type="text" class="form-control require" placeholder="Enter Your Email"
-                                            name="email" id="email" data-valid="email"
-                                            data-error="Email should be valid.">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="form-group form-block">
-                                        <input type="text" class="form-control require" placeholder="Subject"
-                                            id="subject" name="subject">
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
                                     <div class="form-group form-block">
-                                        <textarea cols="3" rows="5" class="form-control require" placeholder="Message"
+                                        <textarea cols="3" rows="5" class="form-control require" placeholder="Mensaje"
                                             id="message" name="message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12">
-                                    <button type="button" class="btn wed_btn submitForm">Submit</button>
+                                    <button type="submit" class="btn wed_btn submitForm">Enviar Whatsapp</button>
                                     <div class="response"></div>
                                     <span></span>
                                     <span></span>
@@ -100,14 +81,30 @@
                 </div>
             </div>
         </div>
-        <div class="wi_map_wrapper">
+        <div class="wi_map_wrapper" style="top: 170px; height: 630px;">
             <div class="container-fluid">
                 <div class="row">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117763.55154239164!2d75.79380997633002!3d22.72411583768725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1634751778862!5m2!1sen!2sin"
-                        width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.2384868815758!2d-75.2827170680841!3d-11.949301145002574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910eb9320aef6f81%3A0x5cd55a40b7fab91c!2sPlaza%20De%20Armas%20de%20San%20Jer%C3%B3nimo!5e0!3m2!1sen!2spe!4v1758944552676!5m2!1sen!2spe"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
         </div>
     </div>
+<script>
+    document.getElementById("formulario").addEventListener("submit", function(e) {
+      e.preventDefault();
+      let nombre = document.getElementById("full_name").value;
+      let mensaje = document.getElementById("message").value;
+      let telefono = "51964237626";
+      let texto = `Hola, soy ${nombre}. ${mensaje}`;
+      let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+      window.open(url, "_blank");
+    });
+</script>
 <?php require 'footer.php'; ?>
