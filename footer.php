@@ -1,18 +1,3 @@
-    <style>
-        .wed_footer_main_wrapper {
-            background-color: #000000;
-        }
-        .wed_footer_name {
-            background-image: url(assets/img/logo.png);
-            padding: 100px 0;
-        }
-        .wed_footer_box ul li span.icon {
-            background-color: #c99d44;
-        }
-        .wed_copyright_wrapper p a {
-            color: #c99d44;
-        }
-    </style>
     <footer class="wed_footer_main_wrapper" style="padding-top: 100px;">
         <div class="container">
             <div class="row">
@@ -47,7 +32,7 @@
     <div class="wed_copyright_wrapper white">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
             <p class="zoomIn wow" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: zoomIn;">
-                Copyright &copy; 2025 <a class="white" href="index.php">Joan - Salón de Eventos Especiales</a> Todos los derechos reservados.
+                Copyright &copy; 2025 <a class="white" href="index.php">Yoau - Salón de Eventos Especiales</a> Todos los derechos reservados.
             </p>
         </div>
     </div>
