@@ -16,7 +16,13 @@
                     <div class="wed_absin_text pulse wow"
                         data-wow-delay="200ms"
                         data-wow-duration="1500ms"
-                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: pulse;">
+                        style="
+                            visibility: visible;
+                            animation-duration: 1500ms;
+                            animation-delay: 200ms;
+                            animation-name: pulse;
+                            padding-top: 20px;
+                            ">
                         <h3>Yoau</h3>
                         <div class="wed_ring_content">
                             <h6>Salón de Eventos Especiales</h6>

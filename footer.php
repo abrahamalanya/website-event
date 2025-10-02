@@ -39,13 +39,13 @@
     <!-- GO To Top -->
     <a href="javascript:;" id="scroll"><span class="fa fa-angle-double-up"></span></a>
     <!-- Script Start -->
-    <script src="assets/js/jquery.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/bootstrap.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/SmoothScroll.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/swiper.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/wow.min.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
-    <script src="assets/js/custom.js" type="eb7a62463dcb05abbf8e8f00-text/javascript"></script>
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/SmoothScroll.min.js" type="text/javascript"></script>
+    <script src="assets/js/swiper.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="assets/js/wow.min.js" type="text/javascript"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
     <script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="eb7a62463dcb05abbf8e8f00-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9813eb7749ffb3c2',t:'MTc1ODIzMDc2Nw=='};var a=document.createElement('script');a.src='../../cdn-cgi/challenge-platform/h/g/scripts/jsd/f78657f80e4b/maind41d.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
 </body>
 </html>

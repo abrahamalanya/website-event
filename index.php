@@ -1,27 +1,24 @@
 <?php require 'header.php'; ?>
-
 <!-- Main Wraapper -->
 <div class="main_wrapper">
     <!-- Banner Wraapper -->
     <div class="single_section" data-scroll-index='1'>
         <section class="wed_banner_wrapper relative">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="wed_banner_text fadeInLeft wow"
-                            data-wow-delay="200ms"
-                            data-wow-duration="1500ms"
-                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInLeft;">
-                            <img src="assets/images/title-bg.png" alt="">
-                            <!-- <h6>Hecho el uno para el otro</h6> -->
-                            <h1>El lugar ideal para tus momentos inolvidables</h1>
-                            <p>
-                                Descubre espacios versátiles y elegantes perfectos para bodas, cumpleaños,
-                                reuniones corporativas y todo tipo de celebraciones. ¡Haz de tu evento una experiencia única!
-                            </p>
-                            <!-- <a href="javascript:void(0);" class="wed_btn">
-                                Ver Más
-                            </a> -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="wed_banner_text fadeInLeft wow"
+                                data-wow-delay="200ms"
+                                data-wow-duration="1500ms"
+                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInLeft;">
+                                <img src="assets/images/title-bg.png" alt="">
+                                <h1>El lugar ideal para tus momentos inolvidables</h1>
+                                <p>
+                                    Descubre espacios versátiles y elegantes perfectos para bodas, cumpleaños,
+                                    reuniones corporativas y todo tipo de celebraciones. ¡Haz de tu evento una experiencia única!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,13 +198,13 @@
 </div>
 <script>
     document.getElementById("formulario").addEventListener("submit", function(e) {
-      e.preventDefault();
-      let nombre = document.getElementById("full_name").value;
-      let mensaje = document.getElementById("message").value;
-      let telefono = "51964237626";
-      let texto = `Hola, soy ${nombre}. ${mensaje}`;
-      let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
-      window.open(url, "_blank");
+        e.preventDefault();
+        let nombre = document.getElementById("full_name").value;
+        let mensaje = document.getElementById("message").value;
+        let telefono = "51964237626";
+        let texto = `Hola, soy ${nombre}. ${mensaje}`;
+        let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+        window.open(url, "_blank");
     });
 </script>
 <?php require 'footer.php'; ?>

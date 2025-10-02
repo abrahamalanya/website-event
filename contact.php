@@ -81,30 +81,33 @@
                 </div>
             </div>
         </div>
-        <div class="wi_map_wrapper" style="top: 170px; height: 630px;">
-            <div class="container-fluid">
-                <div class="row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.2384868815758!2d-75.2827170680841!3d-11.949301145002574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910eb9320aef6f81%3A0x5cd55a40b7fab91c!2sPlaza%20De%20Armas%20de%20San%20Jer%C3%B3nimo!5e0!3m2!1sen!2spe!4v1758944552676!5m2!1sen!2spe"
-                        width="600"
-                        height="450"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+        <div class="container" style="top: 250px; height: 800px;">
+            <div class="map">
+                <div id="google_map" class="google_map">
+                    <div class="map_container" style="border: 5px solid #deb83b;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.2384868815758!2d-75.2827170680841!3d-11.949301145002574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910eb9320aef6f81%3A0x5cd55a40b7fab91c!2sPlaza%20De%20Armas%20de%20San%20Jer%C3%B3nimo!5e0!3m2!1sen!2spe!4v1758944552676!5m2!1sen!2spe"
+                            width="600"
+                            height="450"
+                            style="border: 0; width: 100%;"
+                            allowfullscreen=""
+                            aria-hidden="false"
+                            tabindex="0"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 <script>
     document.getElementById("formulario").addEventListener("submit", function(e) {
-      e.preventDefault();
-      let nombre = document.getElementById("full_name").value;
-      let mensaje = document.getElementById("message").value;
-      let telefono = "51964237626";
-      let texto = `Hola, soy ${nombre}. ${mensaje}`;
-      let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
-      window.open(url, "_blank");
+        e.preventDefault();
+        let nombre = document.getElementById("full_name").value;
+        let mensaje = document.getElementById("message").value;
+        let telefono = "51964237626";
+        let texto = `Hola, soy ${nombre}. ${mensaje}`;
+        let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
+        window.open(url, "_blank");
     });
 </script>
 <?php require 'footer.php'; ?>
