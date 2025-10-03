@@ -58,7 +58,7 @@
         }
         .wed_banner_wrapper {
             background-image: url(./assets/img/local.png);
-            padding: 100px 0 105px;
+            padding: 300px 0 50px;
         }
         .wed_ring_content h6 {
             color: #c99d44;

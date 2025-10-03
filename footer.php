@@ -32,8 +32,7 @@
     <div class="wed_copyright_wrapper white">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
             <p class="zoomIn wow" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: zoomIn;">
-                Copyright &copy; 2025 <a class="white" href="index.php">Yoau - Salón de Eventos Especiales</a> Todos los derechos reservados.
-            </p>
+                Copyright &copy; <?php echo date('Y'); ?> <a class="white" href="index.php">Yoau - Salón de Eventos Especiales</a> Todos los derechos reservados.    </p>
         </div>
     </div>
     <!-- GO To Top -->

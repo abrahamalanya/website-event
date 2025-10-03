@@ -35,7 +35,7 @@
                         <img src="assets/img/img1.png" alt="img1">
                         <div class="wed_ring_content">
                             <h3>Un momento para recordar</h3>
-                            <h6>Celebra el inicio de una nueva historia en un lugar especial.</h6>
+                            <h6>Celebra el inicio de una nueva historia <br> en un lugar especial.</h6>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <img src="assets/img/img2.png" alt="img2">
                         <div class="wed_ring_content">
                             <h3>Tu día, a lo grande</h3>
-                            <h6>Disfruta momentos inolvidables rodeado de quienes más quieres.</h6>
+                            <h6>Disfruta momentos inolvidables <br> rodeado de quienes más quieres.</h6>
                         </div>
                     </div>
                 </div>
