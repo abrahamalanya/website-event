@@ -100,6 +100,11 @@
         .wed_copyright_wrapper p a {
             color: #c99d44;
         }
+        .wed_page_header_wrapper {
+            background-image: url(./assets/img/sanjeronimo.jpg);
+            background-position: center 65%;
+            background-attachment: local;
+        }
         @media (max-width: 991.98px) {
             .main_menu_wrapper {
                 background: #c99d44;
