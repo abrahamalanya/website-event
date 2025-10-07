@@ -151,7 +151,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-4 col-5">
                     <div class="wed_logo">
-                        <a href="index.php">
+                        <a href="/">
                             <img src="assets/img/logo.png" alt="logo">
                         </a>
                     </div>
@@ -161,10 +161,10 @@
                         <!-- Header Menus -->
                         <div class="wed_nav_items main_menu_wrapper text-right wed_single_index_menu">
                             <ul>
-                                <li><a href="index.php">Principal</a></li>
-                                <li><a href="about.php">Nosotros</a></li>
-                                <li><a href="gallery.php">Nuestro Local</a></li>
-                                <li><a href="contact.php">Contáctanos</a></li>
+                                <li><a href="/">Principal</a></li>
+                                <li><a href="about">Nosotros</a></li>
+                                <li><a href="gallery">Nuestro Local</a></li>
+                                <li><a href="contact">Contáctanos</a></li>
                             </ul>
                         </div>
                         <div class="wed_search_wrap menu_btn_wrap">

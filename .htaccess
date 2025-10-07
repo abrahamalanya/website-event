@@ -1,0 +1,10 @@
+# Activar el motor de reescritura de URLs
+RewriteEngine On
+
+# Quitar el .php de la URL si el archivo existe
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Opcional: Establecer index.php como página por defecto
+DirectoryIndex index.php

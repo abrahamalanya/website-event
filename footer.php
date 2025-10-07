@@ -5,9 +5,9 @@
                     <div class="wed_footer_box wed_footerbox_first">
                         <h3>Enlaces</h3>
                         <ul>
-                            <li><a href="about.php">Nosotros</a></li>
-                            <li><a href="gallery.php">Nuestro Local</a></li>
-                            <li><a href="contact.php">Contáctanos</a></li>
+                            <li><a href="about">Nosotros</a></li>
+                            <li><a href="gallery">Nuestro Local</a></li>
+                            <li><a href="contact">Contáctanos</a></li>
                         </ul>
                     </div>
                 </div>
