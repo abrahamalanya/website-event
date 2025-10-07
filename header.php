@@ -164,7 +164,7 @@
                         <!-- Header Menus -->
                         <div class="wed_nav_items main_menu_wrapper text-right wed_single_index_menu">
                             <ul>
-                                <li><a href="/">Principal</a></li>
+                                <li><a href="/">Inicio</a></li>
                                 <li><a href="about">Nosotros</a></li>
                                 <li><a href="gallery">Nuestro Local</a></li>
                                 <li><a href="contact">Contáctanos</a></li>
