@@ -85,15 +85,14 @@
             <div class="map">
                 <div id="google_map" class="google_map">
                     <div class="map_container" style="border: 5px solid #deb83b;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.2384868815758!2d-75.2827170680841!3d-11.949301145002574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910eb9320aef6f81%3A0x5cd55a40b7fab91c!2sPlaza%20De%20Armas%20de%20San%20Jer%C3%B3nimo!5e0!3m2!1sen!2spe!4v1758944552676!5m2!1sen!2spe"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d820.5834923289865!2d-75.28396792443786!3d-11.948524214039127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1759852153160!5m2!1ses-419!2spe"
                             width="600"
                             height="450"
-                            style="border: 0; width: 100%;"
+                            style="border:0;"
                             allowfullscreen=""
-                            aria-hidden="false"
-                            tabindex="0"
-                        ></iframe>
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
                     </div>
                 </div>
             </div>

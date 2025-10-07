@@ -85,35 +85,12 @@
                         </p>
                     </div>
                     <div class="wed_story_btn">
-                        <a href="contact.php" class="wed_btn">View Map
+                        <a href="contact.php" class="wed_btn">Ver Mapa
                             <span></span>
                             <span></span>
                             <span></span>
                             <span></span>
                         </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- our story section -->
-    <div class="wed_our_story_section">
-        <div class="wed_guest_overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="wed_guest_heading wed_ourstory_head">
-                        <h2>Nuestra historia</h2>
-                        <img src="assets/images/heading_white.png" alt="">
-                    </div>
-                    <div class="wed_story_video">
-                        <span class="video_icon">
-                            <a href="https://assets.mixkit.co/videos/preview/mixkit-bride-and-groom-at-their-wedding-standing-head-on-in-a-40627-large.mp4"
-                                class="play_video play_button line_icon"><i class="fa fa-play"
-                                    aria-hidden="true"></i></a>
-                            </a>
-                        </span>
-                        <p>Conoce cómo nació nuestra pasión por crear momentos inolvidables.</p>
                     </div>
                 </div>
             </div>

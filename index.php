@@ -135,8 +135,6 @@
 
         </div>
     </div>
-    <!-- Counter Section Start -->
-    <?php require 'counter.php'; ?>
     <!-- Gallery Section Start-->
     <div class="single_section" data-scroll-index='4'>
         <section class="wed_gallery_wrapper">
