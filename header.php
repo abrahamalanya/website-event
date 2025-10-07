@@ -134,6 +134,11 @@
                 height: 60px;
             }
         }
+        @media (max-width: 575.98px) {
+            .wed_banner_wrapper {
+                padding: 50px 0 50px;
+            }
+        }
     </style>
 </head>
 <body>
