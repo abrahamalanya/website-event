@@ -25,6 +25,9 @@
         .wed_logo img {
             height: 80px;
         }
+        .wed_banner_text h1 {
+            font-style: normal;
+        }
         .wed_banner_text img {
             padding: 0 0 5px;
             width: 80px;
