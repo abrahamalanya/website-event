@@ -87,7 +87,7 @@
             <div class="map">
                 <div id="google_map" class="google_map">
                     <div class="map_container" style="border: 5px solid #deb83b;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d820.5834923289865!2d-75.28396792443786!3d-11.948524214039127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1759852153160!5m2!1ses-419!2spe"
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1951.6874566057056!2d-75.283968!3d-11.948524!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910eb9000938d475%3A0xa82413aa64f8de88!2sSal%C3%B3n%20de%20eventos%20especiales%20Yoau!5e0!3m2!1ses-419!2spe!4v1759857980447!5m2!1ses-419!2spe"
                             width="600"
                             height="450"
                             style="border:0;"

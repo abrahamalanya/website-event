@@ -31,8 +31,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="wed_ring_boy_img fadeInLeft wow" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInLeft;">
-                        <img src="assets/img/img1.png" alt="img1">
+                    <div class="wed_our_story_section" style="
+                        background-image: url(assets/img/img1.png);
+                        padding: 150px 0 150px;
+                        border-radius: 20px;">
+                        <div class="wed_guest_overlay" style="border-radius: 20px;"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="wed_guest_heading wed_ourstory_head">
+                                    </div>
+                                    <div class="wed_story_video">
+                                        <span class="video_icon">
+                                            <a href="assets/img/movie/movie1.mp4" class="play_video play_button line_icon" id="movie1">
+                                                <i class="fa fa-play" aria-hidden="true"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wed_ring_boy_img fadeInLeft wow"
+                        data-wow-delay="200ms"
+                        data-wow-duration="1500ms"
+                        style="
+                            visibility: visible;
+                            animation-duration: 1500ms;
+                            animation-delay: 200ms;
+                            animation-name: fadeInLeft;
+                            margin-top: 20px;">
                         <div class="wed_ring_content">
                             <h3>Un momento para recordar</h3>
                             <h6>Celebra el inicio de una nueva historia <br> en un lugar especial.</h6>
@@ -40,8 +68,37 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="wed_ring_girl_img fadeInRight wow" data-wow-delay="200ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: fadeInRight;">
-                        <img src="assets/img/img2.png" alt="img2">
+                    <div class="wed_our_story_section" style="
+                        background-image: url(assets/img/img2.png);
+                        padding: 150px 0 150px;
+                        margin-top: 50px;
+                        border-radius: 20px;">
+                        <div class="wed_guest_overlay" style="border-radius: 20px;"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="wed_guest_heading wed_ourstory_head">
+                                    </div>
+                                    <div class="wed_story_video">
+                                        <span class="video_icon">
+                                            <a href="assets/img/movie/movie2.mp4" class="play_video play_button line_icon">
+                                                <i class="fa fa-play" aria-hidden="true"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wed_ring_girl_img fadeInRight wow"
+                        data-wow-delay="200ms"
+                        data-wow-duration="1500ms"
+                        style="
+                            visibility: visible;
+                            animation-duration: 1500ms;
+                            animation-delay: 200ms;
+                            animation-name: fadeInRight;
+                            margin-top: 20px;">
                         <div class="wed_ring_content">
                             <h3>Tu día, a lo grande</h3>
                             <h6>Disfruta momentos inolvidables <br> rodeado de quienes más quieres.</h6>
@@ -51,7 +108,11 @@
                 <div class="wed_ring_img zoomIn wow"
                     data-wow-delay="200ms"
                     data-wow-duration="1500ms"
-                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 200ms; animation-name: zoomIn;
+                    style="
+                        visibility: visible;
+                        animation-duration: 1500ms;
+                        animation-delay: 200ms;
+                        animation-name: zoomIn;
                         background-color: #c99d44;">
                     <img src="assets/images/ring.png" alt="ring-img">
                 </div>
@@ -195,6 +256,14 @@
     </div>
 </div>
 <script>
+    // cargar video automaticamente
+    window.addEventListener('load', function () {
+        const playButton = document.querySelector('#movie1');
+        if (playButton) {
+            playButton.click();
+        }
+    });
+    // mensaje whatsapp
     document.getElementById("formulario").addEventListener("submit", function(e) {
         e.preventDefault();
         let nombre = document.getElementById("full_name").value;
