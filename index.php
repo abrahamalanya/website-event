@@ -43,7 +43,9 @@
                                     </div>
                                     <div class="wed_story_video">
                                         <span class="video_icon">
-                                            <a href="assets/img/movie/movie1.mp4" class="play_video play_button line_icon" id="movie1">
+                                            <a href="assets/img/movie/movie1.mp4"
+                                                class="play_video play_button line_icon"
+                                                id="movie1">
                                                 <i class="fa fa-play" aria-hidden="true"></i>
                                             </a>
                                         </span>
@@ -81,7 +83,8 @@
                                     </div>
                                     <div class="wed_story_video">
                                         <span class="video_icon">
-                                            <a href="assets/img/movie/movie2.mp4" class="play_video play_button line_icon">
+                                            <a href="assets/img/movie/movie2.mp4"
+                                                class="play_video play_button line_icon">
                                                 <i class="fa fa-play" aria-hidden="true"></i>
                                             </a>
                                         </span>
@@ -256,12 +259,18 @@
     </div>
 </div>
 <script>
-    // cargar video automaticamente
     window.addEventListener('load', function () {
-        const playButton = document.querySelector('#movie1');
-        if (playButton) {
-            playButton.click();
-        }
+        // Auto click para reproducir el video al cargar la página
+        setTimeout(function () {
+        $('#movie1').trigger('click');
+        }, 500);
+        // Usando Magnific Popup para reproducir video en un lightbox
+        //     $.magnificPopup.open({
+        //     items: {
+        //         src: 'assets/img/movie/movie1.mp4'
+        //     },
+        //     type: 'iframe'
+        //     });
     });
     // mensaje whatsapp
     document.getElementById("formulario").addEventListener("submit", function(e) {
