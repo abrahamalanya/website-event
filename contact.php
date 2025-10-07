@@ -26,7 +26,9 @@
                         </div>
                         <div class="wi_con_box_text">
                             <h3>Correo :</h3>
-                            <a href="javascript:;"><span class="__cf_email__" data-cfemail="60090e060f200518010d100c054e030f0d">ventas@joaneventos.com</span></a>
+                            <a href="javascript:;">
+                                <span class="__cf_email__" data-cfemail="60090e060f200518010d100c054e030f0d">contacto@eventoyoau.com</span>
+                            </a>
                         </div>
                     </div>
                 </div>
