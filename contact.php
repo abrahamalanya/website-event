@@ -105,7 +105,7 @@
         e.preventDefault();
         let nombre = document.getElementById("full_name").value;
         let mensaje = document.getElementById("message").value;
-        let telefono = "51964237626";
+        let telefono = "51964215549";
         let texto = `Hola, soy ${nombre}. ${mensaje}`;
         let url = `https://wa.me/${telefono}?text=${encodeURIComponent(texto)}`;
         window.open(url, "_blank");

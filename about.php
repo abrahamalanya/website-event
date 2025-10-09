@@ -35,8 +35,10 @@
                         <p>
                             Contamos con un <strong>local elegante y completamente equipado</strong>, disponible para alquiler, 
                             ideal para bodas, cumpleaños, aniversarios, graduaciones, eventos empresariales y mucho más. 
-                            Nuestro espacio puede adaptarse a distintos tipos de celebraciones, con capacidad para <strong>hasta 200 personas</strong>, 
+                            Nuestro espacio puede adaptarse a distintos tipos de celebraciones, con capacidad para
+                            <strong>hasta 350 personas</strong> en el primer piso y <strong>90 personas</strong> en el segundo, 
                             climatización, iluminación profesional y áreas diferenciadas para cada necesidad.
+                            <strong>Ideal para quinceañeros.</strong>
                         </p>
                         <p>
                             <em>Transformamos tus ideas en celebraciones inolvidables.</em>
